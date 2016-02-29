@@ -1,4 +1,4 @@
-﻿<meta charset="utf-8" />
+﻿<meta charset="utf-8"/>
 <style>
 h1 {margin:auto; border:1px solid #000080;}
 body {background-color:#dddddd; color:#000080; font-family:calibri; margin: 20px;}
