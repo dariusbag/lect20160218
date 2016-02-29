@@ -1,0 +1,42 @@
+﻿<select id="Ultra" onchange="run()">  <!--Call run() function-->
+     <option value="0">Susis</option>
+     <option value="1">Vasaris</option>
+     <option value="7">Rugpjūtis</option>
+</select><br><br>
+TextBox1<br>
+<input type="text" id="srt"><br>
+TextBox2<br>
+<input type="text" id="rtt" onkeyup="up()"><br />
+
+<script>
+    function run() {
+        document.getElementById("srt").value = document.getElementById("Ultra").value;
+    }
+</script>
+
+<script>
+    function go() {
+        console.log(document.getElementById("Ultra").value);
+    }
+    document.write(document.getElementById("Ultra").value);
+</script>
+
+<script>
+    function up() {
+        //if (document.getElementById("srt").value != "") {
+            var dop = document.getElementById("srt").value;
+        //}
+        alert(dop);
+    }
+</script>
+
+<script>
+    function up() {
+        var dop = document.getElementById("srt").value;
+        pop(dop); // Calling function pop
+    }
+
+    function pop(val) {
+        alert(val);
+    }
+</script>
